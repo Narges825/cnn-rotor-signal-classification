@@ -9,7 +9,7 @@ This project implements a 1D Convolutional Neural Network (CNN) to classify roto
 - Learning Rate Scheduling
 - Model Checkpointing
 - Evaluation using F1-score and MCC
-- 
+  
 ## Technologies
 - Python
 - TensorFlow / Keras
