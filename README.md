@@ -17,9 +17,15 @@ This project implements a 1D Convolutional Neural Network (CNN) to classify roto
 - Scikit-learn
 - Matplotlib
 
+- ## Environment
+- Python 3.12
+- TensorFlow 2.19
+- Keras 3.11
+- NumPy 2.1
+
 - ## Results
-Mean F1-score:   
-Mean MCC: 
+Mean F1-score: 0.95 ± 0.05  
+Mean MCC: 0.95 ± 0.05
 
 ## How to Run
 1. Install dependencies:
