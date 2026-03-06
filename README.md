@@ -25,12 +25,15 @@ This project implements a 1D Convolutional Neural Network (CNN) to classify roto
 
 ## Dataset Format
 The model expects a dataset stored in an '.npz' file containing:
+
 - 'X': rotor pressure signals (shape: n_samples × signal_length)
 - 'y': binary labels (0 or 1)
+  
 The dataset used in this project was provided during a university course and cannot be publicly distributed. 
 
 ## Results
 Performance across 5-fold cross validation:
+
 - Mean F1-score: 0.95 ± 0.05  
 - Mean MCC: 0.95 ± 0.05
 
