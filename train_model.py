@@ -43,7 +43,7 @@ def load_npz_for_tensorflow(path):
     y = y.astype(np.int32)
     return X_tf, y
 
-X, y = load_npz_for_tensorflow("student_task_adl_prepared_dataset.npz")
+X, y = load_npz_for_tensorflow("dataset.npz")
 
 
 
@@ -214,6 +214,7 @@ final_model.fit(
  
 # save the final model
 final_model.save("cnn_rotor_signal_classification.keras")
+
 
 
 
